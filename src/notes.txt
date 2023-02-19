@@ -1,0 +1,22 @@
+npx create-react-app photo-port
+
+npm install
+npm start
+
+******do this after launching ( module instructs to do this(below) before npm install and npm start but doing so causes conflict) *****
+create-react-app automatically uses the latest release of React. Due to several conflicting packages with the newer React version 18, follow the steps below to ensure that all packages in this module project will work as intended with React version 17:
+
+Delete the package-lock.json file and node_modules folder from the client directory.
+
+Downgrade react to 17.0.2 inside of the package.json file.
+
+Downgrade react-dom to 17.0.2 inside of the package.json file.
+
+Downgrade @testing-library/react to ^11.1.0 inside of the package.json file.
+
+
+Setting up the repo
+convert to git repo rather than cloning
+**git init
+**create your repo
+**git remote add origin <url>
