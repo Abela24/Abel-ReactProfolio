@@ -1,5 +1,6 @@
 import React from "react";
 import { capitalizeFirstLetter } from "../../utils/helpers";
+import resume from "../../assets/resume.pdf"
 
 function Nav() {
   const  categories = [
@@ -63,7 +64,9 @@ function Nav() {
               </li>
             ))
           }
-        
+        <li>
+          <a href={resume} target="_blank">Resume</a>
+        </li>
         </ul>
       </nav>
     </header>
