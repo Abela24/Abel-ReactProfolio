@@ -11,6 +11,28 @@ function Nav() {
 
   const handleClick = () => {
     console.log("click handled")
+     const links = [
+      {
+        id:1,
+        link: 'Portfolio'
+      },
+      {
+        id:2,
+        link: 'Projects'
+      },
+      {
+        id:3,
+        link: 'Education'
+      },
+      {
+        id:4,
+        link: 'home'
+      },
+      {
+        id:5,
+        link: 'contact'
+      }
+     ]
   }
 
   return (
@@ -41,6 +63,7 @@ function Nav() {
               </li>
             ))
           }
+        
         </ul>
       </nav>
     </header>
