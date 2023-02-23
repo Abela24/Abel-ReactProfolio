@@ -25,10 +25,7 @@ function Nav() {
         id:3,
         link: 'Education'
       },
-      {
-        id:4,
-        link: 'home'
-      },
+   
       {
         id:5,
         link: 'contact'

@@ -3,7 +3,7 @@ import './App.css';
 import Nav from './components/Nav';
 import About from './components/About';
 
-
+const App = () => <PortfolioContainer />;
 function App() {
   return (
     <div className="App">
