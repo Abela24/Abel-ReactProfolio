@@ -9,7 +9,6 @@ function Nav() {
     { name: 'Education', description: 'school is university of toronto' },
     { name: '', description: 'contacting me with my information' }
   ];
-
   const handleClick = () => {
     console.log("click handled")
      const links = [
