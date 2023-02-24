@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Nav from './components/Nav';
-import About from './src/Nav/About';
+import About from './components/About';
 //import PortfolioContainer from './components/Nav/PortfolioContainer';
 
 const [currentPage, setCurrentPage] = useState("About");
